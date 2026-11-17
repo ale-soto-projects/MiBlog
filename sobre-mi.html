@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es" class="sin-js" data-tema="claro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sobre mí | Marlon Soto</title>
+  <meta name="description" content="Quién es Marlon Soto: estudiante de Ingeniería de Sistemas e Informática de Coishco, voluntario, emprendedor y deportista.">
+  <meta name="author" content="Marlon Alessandro Soto Rumiche">
+  <meta name="theme-color" content="#2e3a9e">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Sobre mí | Marlon Soto">
+  <meta property="og:description" content="Quién es Marlon Soto: estudiante de Ingeniería de Sistemas e Informática de Coishco, voluntario, emprendedor y deportista.">
+  <meta property="og:image" content="img/marlon-perfil.jpg">
+  <meta property="og:locale" content="es_PE">
+  <script>
+    (function () {
+      var t = null;
+      try { t = localStorage.getItem("tema"); } catch (e) {}
+      var r = document.documentElement;
+      r.setAttribute("data-tema", t === "oscuro" ? "oscuro" : "claro");
+      r.classList.remove("sin-js");
+    })();
+  </script>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="saltar" href="#contenido">Saltar al contenido</a>
+  <header class="encabezado">
+    <div class="contenedor">
+      <a class="logo" href="index.html" aria-label="Marlon Soto, ir al inicio">
+        <img src="img/marlon-avatar.jpg" alt="" width="40" height="40">
+        <span>Marlon Soto<small>Ing. de Sistemas e Informática</small></span>
+      </a>
+      <nav class="nav" id="menu-principal" aria-label="Principal">
+        <ul class="nav-lista">
+          <li><a href="sobre-mi.html" aria-current="page">Sobre mí</a></li>
+          <li><a href="estudios.html">Estudios</a></li>
+          <li><a href="experiencia.html">Experiencia</a></li>
+          <li><a href="logros.html">Logros</a></li>
+          <li><a href="proyectos.html">Proyectos</a></li>
+          <li><a href="galeria.html">Galería</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+      <button class="boton-icono tema-boton" type="button" aria-pressed="false" aria-label="Cambiar a modo oscuro"><svg viewBox="0 0 24 24" aria-hidden="true">
+  <mask id="mascara-luna"><rect width="24" height="24" fill="#fff"/><circle class="sombra-luna" cx="17" cy="7" r="7" fill="#000"/></mask>
+  <circle class="disco" cx="12" cy="12" r="5" fill="currentColor" mask="url(#mascara-luna)"/>
+  <g class="rayos" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 1.5v2M12 20.5v2M1.5 12h2M20.5 12h2M4.6 4.6l1.4 1.4M18 18l1.4 1.4M4.6 19.4L6 18M18 6l1.4-1.4"/></g>
+</svg></button>
+      <button class="boton-icono menu-boton" type="button" aria-expanded="false" aria-controls="menu-principal" aria-label="Abrir menú">
+        <svg class="icono-abrir" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        <svg class="icono-cerrar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="contenido">
+
+    <header class="pagina-cabecera">
+      <div class="contenedor">
+        <p class="kicker entrada e1">01 · Sobre mí</p>
+        <h1 class="entrada e2">Un poco de mí.</h1>
+        <p class="intro entrada e3">De dónde vengo, en qué ando y qué hago cuando no estoy frente a la computadora.</p>
+        
+        <nav class="ruta-sitio" aria-label="Ruta del sitio">
+          <div class="base"></div><div class="hecho"></div>
+          <a class="ruta-parada pasada" href="index.html" style="left:0.00%" aria-label="Inicio"><i></i><span>Inicio</span></a><a class="ruta-parada actual" href="sobre-mi.html" style="left:12.50%" aria-current="page" aria-label="Sobre mí"><i></i><span>Sobre mí</span></a><a class="ruta-parada" href="estudios.html" style="left:25.00%" aria-label="Estudios"><i></i><span>Estudios</span></a><a class="ruta-parada" href="experiencia.html" style="left:37.50%" aria-label="Experiencia"><i></i><span>Experiencia</span></a><a class="ruta-parada" href="logros.html" style="left:50.00%" aria-label="Logros"><i></i><span>Logros</span></a><a class="ruta-parada" href="proyectos.html" style="left:62.50%" aria-label="Proyectos"><i></i><span>Proyectos</span></a><a class="ruta-parada" href="galeria.html" style="left:75.00%" aria-label="Galería"><i></i><span>Galería</span></a><a class="ruta-parada" href="blog.html" style="left:87.50%" aria-label="Blog"><i></i><span>Blog</span></a><a class="ruta-parada" href="contacto.html" style="left:100.00%" aria-label="Contacto"><i></i><span>Contacto</span></a>
+          <div class="ruta-yo" aria-hidden="true"><img src="img/marlon-avatar.jpg" alt="" width="46" height="46"></div>
+        </nav>
+      </div>
+    </header>
+    <section class="seccion">
+      <div class="contenedor dos-columnas">
+        <div class="prosa-corta revelar">
+          <p class="primero">Me llamo Marlon Alessandro Soto Rumiche. Soy de Coishco y estoy en décimo ciclo de Ingeniería de Sistemas e Informática en la Universidad Nacional del Santa.</p>
+          <p>Este año ha sido bastante movido. Entre abril y mayo hice mis prácticas en Softmabe, en desarrollo full stack. En septiembre me fui un mes a Cusco por una pasantía nacional, y desde octubre soy voluntario en la Corte Superior de Justicia del Santa, en Chimbote.</p>
+          <p>Además estoy empezando un negocio propio. Vendo accesorios para celular, iPhones y relojes, y estoy aprendiendo a trabajar con importaciones.</p>
+          <p>Cuando no estoy en eso, estoy haciendo deporte. Salgo a correr, juego fútbol con mis amigos y voy al gimnasio. Es lo que me ayuda a desconectarme y a llevar la semana con algo de orden.</p>
+          <h2 class="titulo-seccion" style="font-size:var(--t-xl);margin-top:48px">Lo que me gusta</h2>
+          <ul class="intereses"><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="14" cy="4.5" r="2"/><path d="M7 21l3-6 3 2v4M10 15l1-5 4 3h3M11 10L7 11l-2 3"/></svg> Correr</li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7l4 3-1.5 4.5h-5L8 10z"/></svg> Fútbol</li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 7v10M3 9v6M18 7v10M21 9v6M6 12h12"/></svg> Gimnasio</li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="8" r="3"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6"/><circle cx="17" cy="9" r="2.5"/><path d="M17 14c2.5 0 4 1.8 4 5"/></svg> Salir con amigos</li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 20l6-10 4 6 3-4 5 8z"/><circle cx="17" cy="6" r="2"/></svg> Conocer lugares nuevos</li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 8l-5 4 5 4M16 8l5 4-5 4M14 4l-4 16"/></svg> Tecnología</li></ul>
+        </div>
+        <div class="collage revelar" data-retraso="120">
+          <figure class="f1"><img src="img/cusco-laguna.jpg" alt="Marlon de pie sobre una roca frente a una laguna turquesa y un nevado" width="900" height="1200" loading="lazy" style="object-position:center 60%"><figcaption>Cusco, septiembre de 2026</figcaption></figure>
+          <figure class="f2"><img src="img/nc21k-meta.jpg" alt="Marlon con su medalla de la NC21K" width="975" height="1091" loading="lazy" style="object-position:center 45%"><figcaption>Nuevo Chimbote, noviembre de 2026</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="franja">
+      <div class="contenedor">
+        <div class="franja-caja revelar">
+          <div>
+            <h2>¿Quieres escribirme?</h2>
+            <p>Lo más rápido es WhatsApp. Te respondo apenas pueda.</p>
+          </div>
+          <div class="acciones">
+            <a class="btn btn-claro" href="contacto.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.5 8.5 0 0 1-12.6 7.4L3 20.5l1.6-5.2A8.5 8.5 0 1 1 21 11.5z"/></svg> Escribirme</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="pie">
+    <div class="contenedor pie-grid">
+      <div>
+        <p>© <span data-anio>2026</span> Marlon Alessandro Soto Rumiche · Coishco, Áncash</p>
+        <ul class="pie-nav"><li><a href="index.html">Inicio</a></li><li><a href="sobre-mi.html">Sobre mí</a></li><li><a href="estudios.html">Estudios</a></li><li><a href="experiencia.html">Experiencia</a></li><li><a href="logros.html">Logros</a></li><li><a href="proyectos.html">Proyectos</a></li><li><a href="galeria.html">Galería</a></li><li><a href="blog.html">Blog</a></li><li><a href="contacto.html">Contacto</a></li></ul>
+      </div>
+      <div class="pie-redes">
+        <a href="https://wa.me/51997940406" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.5 8.5 0 0 1-12.6 7.4L3 20.5l1.6-5.2A8.5 8.5 0 1 1 21 11.5z"/></svg></a>
+        <a href="https://www.instagram.com/chistemas_sr/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.8" fill="currentColor"/></svg></a>
+        <a href="mailto:marlonalessandro04@outlook.com" aria-label="Correo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></a>
+      </div>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
