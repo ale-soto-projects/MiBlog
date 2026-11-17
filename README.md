@@ -1,2 +1,0 @@
-# MiBlog
-Mi blog personal
